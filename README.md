@@ -9,3 +9,8 @@ When I learn to separate our code into module
 ```
 go mod edit -replace veasna.com/user=../user
 ```
+2. Start your module using the go mod init command
+```
+$ go mod init example.com/user
+go: creating new go.mod: module example.com/user
+```
